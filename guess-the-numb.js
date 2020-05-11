@@ -5,6 +5,7 @@ let randomNumber = Math.floor(Math.random() * 100) +1;
 
         const guessSubmit = document.querySelector('.guessSubmit');
         const guessField = document.querySelector('.guessField');
+        const theBody = document.querySelector('.the-body');
 
         let guessCount = 1;
         let resetButton;
@@ -65,8 +66,8 @@ function resetGame() {
   guessSubmit.disabled = false;
   guessField.value = '';
   guessField.focus();
-
-  lastResult.style.backgroundColor = 'white';
+  
+  lastResult.style.backgroundColor = theBody.style.backgroundColor;
 
   randomNumber = Math.floor(Math.random() * 100) + 1;
 }
