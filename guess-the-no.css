@@ -11,6 +11,18 @@
   }
 
   .lastResult {
-    color: white;
     padding: 3px;
   }
+  .guessSubmit{
+      border-radius: 6px;
+      padding: 2px 3px 2px 3px;
+      text-transform: uppercase;
+  }
+  button{
+      border-radius:6px;
+      padding:2px 3px 2px 3px;
+      text-transform: uppercase;
+    }
+#guessField{
+    border-radius: 3px;
+}
