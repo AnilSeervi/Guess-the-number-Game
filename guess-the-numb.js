@@ -25,7 +25,7 @@ let randomNumber = Math.floor(Math.random() * 100) +1;
                 } 
                 else if (guessCount === 10){
                 lastResult.textContent='!!!GAME OVER!!!';
-                lastResult.textContent += `The Number was: ` + randomNumber;
+                lastResult.textContent += `  The Number was: ` + randomNumber;
                 setGameOver();
                 }
                     else{
